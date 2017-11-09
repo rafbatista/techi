@@ -144,12 +144,13 @@ body {
 
 .caption-allef {
   position: absolute;
-  text-align: right;
-  width: inherit;
-  height: inherit;
-  color: white;
   top: 43vh;
   right: 1vw;
+  text-align: right;
+  width: 23.4vw;
+  height: 42.2vh;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.65);
 }
 
 .caption-name-allef {
@@ -189,7 +190,7 @@ body {
 
 .main-footer {
   background-color: rgb(35, 50, 57);
-  height: 105.9vh;
+  height: 107.4vh;
   width: 100%;
   text-align: center;
 }
@@ -333,11 +334,11 @@ body {
 .sidebar-caption-allef {
   position: absolute;
   text-align: right;
-  width: inherit;
-  height: inherit;
+  width: 22.5vw;
+  height: 42.2vh;
   color: white;
   top: 141.5vh;
-  right: 1.1vw;
+  background-color: rgba(0, 0, 0, 0.65);
 }
 
 .sidebar-caption-name-allef {
@@ -361,7 +362,7 @@ body {
   text-align: left;
   left: 3rem;
   font-size: 1.4rem;
-  margin-left: 0.7rem;
+  margin-left: -1.2rem;
   margin-top: 1.6rem;
   margin-right: 4.2rem;
 }
@@ -377,7 +378,7 @@ body {
 
 .sidebar-footer {
   margin-top: 1.4rem;
-  height: inherit;
+  height: 9.7vh;
   width: 100%;
   text-align: center;
   background-color: rgb(35, 50, 57);
