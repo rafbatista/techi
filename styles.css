@@ -11,15 +11,17 @@ body {
 
 .main-content {
   position: relative;
+  float: left;
   display: inline-block;
-  width: 75.1vw;
-  border-right: rgb(198, 198, 198) solid 2px;
+  width: 74.9vw;
+  border-right: rgb(172, 172, 172) solid 1.5px;
   color: rgb(0, 163, 148);
 }
 
 .main > img {
   display: inline-block;
   margin-left: 0.2rem;
+  margin-top: 0.2rem;
 }
 
 .main-nav {
@@ -30,24 +32,41 @@ body {
 .main-nav-list {
   list-style: none;
   padding: 0;
-  margin-top: 6.5rem;
+  margin-top: 6.6rem;
   margin-right: 1.3rem;
 }
 
 .main-nav-item {
   display: inline-block;
-  padding-left: 1.7rem;
-  padding-right: 1.5rem;
   font-size: 1.6rem;
+  letter-spacing: 0.07rem;
 }
 
-.main-nav-item > .meet {
-  margin-left: 2rem;
+.main-nav-list > .home {
+  padding-right: 2.1rem;
+}
+
+.main-nav-list > .meet {
+  padding-right: 2.1rem;
+}
+
+.main-nav-list > .contact {
+  padding-right: 0.2rem;
+  padding-left: -3rem;
+}
+
+.banner-caption {
+  position: absolute;
+  top: 19.5vh;
+  font-size: 5.4rem;
+  margin-left: 1.35rem;
+  color: rgb(250, 250, 250);
+  text-shadow: 3px -1px 9px black;
 }
 
 .banner > img {
   width: 100%;
-  margin-top: 0.55rem;
+  margin-top: 0.3rem;
 }
 
 .main-pics {
@@ -56,14 +75,14 @@ body {
 
 .team-pic {
   display: inline-block;
-  margin-top: 1rem;
+  margin-top: 1.45rem;
   width: 31.7%;
   height: 50.8vh;
 }
 
 .main-pics > .jake,
-.allef {
-  margin-left: 1.5rem;
+.main-pics > .allef {
+  margin-left: 1.59rem;
 }
 
 .team-pic > img {
@@ -71,11 +90,98 @@ body {
   height: 100%;
 }
 
+.caption-brook {
+  position: absolute;
+  text-align: right;
+  width: inherit;
+  height: inherit;
+  color: white;
+  top: 69vh;
+  right: 50vw;
+}
+
+.caption-name-brook {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  font-size: 3.9rem;
+  font-weight: bolder;
+  letter-spacing: 0.2rem;
+}
+
+.caption-title-brook {
+  position: relative;
+  font-size: 2.05rem;
+  bottom: 1.8vh;
+  right: 0.3vw;
+}
+
+.caption-jake {
+  position: absolute;
+  text-align: right;
+  width: inherit;
+  height: inherit;
+  color: white;
+  top: 69vh;
+  right: 25.5vw;
+}
+
+.caption-name-jake {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  font-size: 3.9rem;
+  font-weight: bolder;
+  letter-spacing: 0.2rem;
+}
+
+.caption-title-jake {
+  position: relative;
+  font-size: 2.05rem;
+  bottom: 1.8vh;
+  right: 0.1vw;
+}
+
+.caption-allef {
+  position: absolute;
+  text-align: right;
+  width: inherit;
+  height: inherit;
+  color: white;
+  top: 43vh;
+  right: 1vw;
+}
+
+.caption-name-allef {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  font-size: 3.9rem;
+  font-weight: bolder;
+  letter-spacing: 0.2rem;
+}
+
+.caption-title-allef {
+  position: relative;
+  font-size: 2.05rem;
+  bottom: 1.8vh;
+  right: 0.1vw;
+}
+
+.caption-description {
+  position: relative;
+  text-align: left;
+  left: 2.7rem;
+  font-size: 1.4rem;
+  margin-top: 1.2rem;
+  margin-right: 4.2rem;
+}
+
 .learn-more {
-  margin-left: -0.18rem;
-  margin-top: 2.8rem;
+  margin-left: -0.22rem;
+  margin-top: 2.9rem;
   margin-bottom: 3.35rem;
-  font-size: 2.02rem;
+  font-size: 2.01rem;
   text-decoration: underline;
   text-underline-position: under;
   font-weight: 200;
@@ -83,7 +189,7 @@ body {
 
 .main-footer {
   background-color: rgb(35, 50, 57);
-  height: 100vh;
+  height: 105.9vh;
   width: 100%;
   text-align: center;
 }
@@ -97,49 +203,195 @@ body {
   padding-left: 12.1rem;
   font-size: 1.55rem;
   color: rgb(200, 204, 207);
-  margin-top: 2rem;
+  margin-top: 1.8rem;
 }
 
 .social-media-icons {
   position: relative;
   float: right;
   font-size: 2.7rem;
-  padding-right: 2rem;
-  margin-top: 1rem;
+  padding-right: 1.6rem;
+  margin-top: 0.85rem;
 }
 
 .sidebar-content {
-  position: absolute;
+  position: relative;
+  float: left;
   display: inline-block;
-  width: 26vw;
+  width: 24.99vw;
 }
 
 .sidebar-nav {
   list-style: none;
-  text-align: center;
   margin: 0;
   padding: 0;
+  text-align: center;
 }
 
 .sidebar-nav-item {
+  margin-top: -0.1rem;
   padding-top: 1.4rem;
-  padding-bottom: 1.4rem;
+  padding-bottom: 1.5rem;
+  padding-right: 1.8rem;
   border: rgb(40, 39, 39) 1px solid;
   border-right: none;
   font-size: 1.6rem;
   border-left: none;
+  letter-spacing: 0.07rem;
 }
 
-.sidebar-nav > .mid {
+.sidebar-nav-item:hover {
+  background-color: rgb(40, 39, 39);
+  color: rgb(0, 155, 103);
+}
+
+.sidebar-nav > .meet {
+  padding-top: 1.6rem;
   border-top: none;
   border-bottom: none;
 }
 
-.sidebar-pics {
-  float: right;
+.sidebar-nav > .contact {
+  padding-top: 1.7rem;
+  padding-right: 1.7rem;
+  padding-bottom: 1.7rem;
 }
 
 .sidebar-team-pic > img {
   width: 100%;
   height: 100%;
+}
+
+.sidebar-team-pic {
+  margin-left: 1.8rem;
+  margin-right: 1.8rem;
+  height: 48.6vh;
+  padding-bottom: 1.7rem;
+}
+
+.sidebar-pics > .jake {
+  height: 50.8vh;
+}
+
+.sidebar-pics > .allef {
+  height: 50.8vh;
+  padding-bottom: 1.5rem;
+}
+
+.sidebar-caption-brook {
+  position: absolute;
+  text-align: right;
+  width: inherit;
+  height: inherit;
+  color: white;
+  top: 62.2vh;
+  right: 0.9vw;
+}
+
+.sidebar-caption-name-brook {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  font-size: 3.9rem;
+  font-weight: bolder;
+  letter-spacing: 0.2rem;
+}
+
+.sidebar-caption-title-brook {
+  position: relative;
+  font-size: 2.05rem;
+  bottom: 1.8vh;
+  right: 0.3vw;
+}
+
+.sidebar-caption-jake {
+  position: absolute;
+  text-align: right;
+  width: inherit;
+  height: inherit;
+  color: white;
+  top: 115.2vh;
+  right: 0.9vw;
+}
+
+.sidebar-caption-name-jake {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  font-size: 3.9rem;
+  font-weight: bolder;
+  letter-spacing: 0.2rem;
+}
+
+.sidebar-caption-title-jake {
+  position: relative;
+  font-size: 2.05rem;
+  bottom: 1.8vh;
+  right: 0.3vw;
+}
+
+.sidebar-caption-allef {
+  position: absolute;
+  text-align: right;
+  width: inherit;
+  height: inherit;
+  color: white;
+  top: 141.5vh;
+  right: 1.1vw;
+}
+
+.sidebar-caption-name-allef {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  font-size: 3.9rem;
+  font-weight: bolder;
+  letter-spacing: 0.2rem;
+}
+
+.sidebar-caption-title-allef {
+  position: relative;
+  font-size: 2.05rem;
+  bottom: 1.8vh;
+  right: 0.3vw;
+}
+
+.sidebar-caption-description {
+  position: relative;
+  text-align: left;
+  left: 3rem;
+  font-size: 1.4rem;
+  margin-left: 0.7rem;
+  margin-top: 1.6rem;
+  margin-right: 4.2rem;
+}
+
+.sidebar-learn-more {
+  padding-right: 14rem;
+  margin-left: 1.8rem;
+  font-size: 2.01rem;
+  color: rgb(0, 163, 148);
+  text-decoration: underline;
+  text-underline-position: under;
+}
+
+.sidebar-footer {
+  margin-top: 1.4rem;
+  height: inherit;
+  width: 100%;
+  text-align: center;
+  background-color: rgb(35, 50, 57);
+}
+
+.sidebar-copyright {
+  padding-top: 1.8rem;
+  padding-right: 0.4rem;
+  color: rgb(200, 204, 207);
+  font-size: 1.25rem;
+}
+
+.sidebar-social-media-icons {
+  color: rgb(0, 163, 148);
+  font-size: 2rem;
+  padding-top: 1.2rem;
 }
