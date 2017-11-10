@@ -81,7 +81,3 @@ const renderImgs = () => {
     }
   }
 }
-
-renderImgs()
-renderNames()
-renderTitles()
